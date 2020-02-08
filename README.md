@@ -29,7 +29,7 @@ services:
 ~~~
 ## Can execute the original cureutils
 ~~~bash
-% docker-compose run --rm app cure version
+$ docker-compose run --rm app cure version
 Cureutils 1.2.0
 $
 ~~~
