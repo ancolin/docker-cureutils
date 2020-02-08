@@ -20,9 +20,7 @@ Docker
 version: '3'
 services:
   app:
-    build:
-      context: app/
-    image: ancolin/cureutils
+    image: ancolin/cureutils:latest
     environment:
       - USE_IN_BATTLE=TRUE
       - ONLY_USE_IN_BATTLE=FALSE
